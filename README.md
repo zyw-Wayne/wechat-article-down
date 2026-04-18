@@ -60,11 +60,17 @@ downloads/
     └── failed.log          # 下载失败的资源记录（如有）
 ```
 
+## 安装
+
+```bash
+npx skills add https://github.com/zyw-Wayne/wechat-article-down
+```
+
 ## 使用方式
 
 ### 作为 Claude Code Skill
 
-安装到 `~/.claude/skills/wechat-article-down/` 后，直接向 Claude 发送微信文章链接即可触发下载：
+安装后，直接向 Claude 发送微信文章链接即可触发下载：
 
 ```
 下载这篇文章：https://mp.weixin.qq.com/s/xxxxx
